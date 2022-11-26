@@ -1,0 +1,46 @@
+.App{
+  height: 100%;
+}
+
+.App .header{
+  height: 58px;
+  width: 100%;
+  color: white;
+  background-color: #212a3b;
+  border-bottom: 2px solid #2c3546;
+  font-family: 'Consolas, Inconsolata, "Droid Sans Mono", Monaco, monospace';
+}
+.App a {
+  color: white;
+  text-decoration: none;
+}
+.App .header .logo{
+  float:left;
+  padding-left: 10px;
+}
+.App .header .logo h1{
+  /* padding: 10px 0 0 10px; */
+  margin: 0;
+  font-size: 20px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+.App .header .logo p {
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 14px;
+}
+
+.App .graphqlUi{
+  height: calc(100% - 60px);
+}
+.App .github{
+  padding: 10px 20px 0 10px;
+  /* margin: 0; */
+  float: right;
+  /* padding-right: 20x; */
+}
+.App .github a{
+  margin-left: 25px;
+  font-size: 14px;
+}
